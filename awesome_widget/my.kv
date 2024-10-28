@@ -1,12 +1,12 @@
 #:kivy 2.3.0
 #:import Factory kivy.factory.Factory
 
-<WaitBar@Widget>:
+<WaitBar>:
     canvas:
         Color:
             rgba: 1, 0, 0, 1
         Rectangle:
-            pos: (10, 10)
+            pos: self.pos
             size: (30, 30)
 
 <MyPopup@Popup>:
