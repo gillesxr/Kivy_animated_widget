@@ -13,11 +13,13 @@
     title: 'My awesome popup'
     auto_dismiss: False
     size_hint: (0.9, 0.5)
+    on_open: wait_bar.start_animation()
     RelativeLayout:
         WaitBar:
+            id: wait_bar
 
 RootWidget:
     Button:
-        text: 'This is a button'
+        text: 'Open popup'
         size_hint: (0.9, 0.5)
         on_release: Factory.MyPopup().open()
