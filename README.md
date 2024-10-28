@@ -6,5 +6,5 @@ This custom widget is a popup embedding a red moving rectangle. A use case might
 
 [Awesome_widget.webm](https://github.com/user-attachments/assets/8008c068-1f05-4a36-868d-67f4ef592fa6)
 
-This repository is linked with this post which described the step by step process to design the widget.
+This repository is linked with this [post](https://gillesxr.github.io/python/kivy/2024/10/24/design-a-custom-kivy-widget.html) which described the step by step process to design the widget.
 
